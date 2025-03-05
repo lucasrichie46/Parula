@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Earth Landscaping Cooperative</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: "Georgia", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #2C5F2D;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('images/hero.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            padding: 20px;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #2C5F2D;
+            font-size: 32px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-container img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        form input, form textarea {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background: #2C5F2D;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        footer {
+            background: #2C5F2D;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Green Earth Landscaping Cooperative</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Eco-friendly Landscaping for a Sustainable Future</h2>
+        <p>We transform outdoor spaces with sustainability and beauty in mind.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a worker-owned cooperative dedicated to sustainable landscaping solutions.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Eco-friendly Lawn Care</li>
+            <li>Native Plant Landscaping</li>
+            <li>Hardscaping & Outdoor Design</li>
+            <li>Tree & Shrub Care</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Our Work</h2>
+        <div class="gallery-container">
+            <img src="images/project1.jpg" alt="Project 1">
+            <img src="images/project2.jpg" alt="Project 2">
+            <img src="images/project3.jpg" alt="Project 3">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@greenearthcoop.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Green Earth Landscaping Cooperative. All rights reserved.</p>
+    </footer>
+</body>
+</html>
